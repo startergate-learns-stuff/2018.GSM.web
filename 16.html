@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>상시 4 통합</title>
+  </head>
+  <body>
+    <h2>hr.html</h2>
+    <div>
+      보통 두께 1 <hr>
+      수평선 두께 5 <hr style="height: 5px /* size='5' */"> <!-- HTML5 미지원 -->
+      길이 150픽셀 <hr style="width: 150px /* width='150' */"> <!-- HTML5 미지원 -->
+      길이 80% <hr style="width: 80% /* width='80%' */"> <!-- HTML5 미지원 -->
+      수평선 위치를 왼쪽으로 <hr style="text-align:left;width: 30% /* align='left' width='30%' */"> <!-- HTML5 미지원 -->
+      색이 빨간색 <hr style="background-color: red;color:red;height:2px /* color='red' */"><!-- HTML5 미지원 -->
+      음영 효과 제거 <hr style="height:2px;border-width: 0;background-color: grey /* noshade */"><!-- HTML5 미지원 -->
+    </div>
+    <hr>
+    <h2>align.html</h2>
+    <div>
+      <div style="text-align: left /* align='left' */"> 왼쪽 정렬 </div><br><br>
+      <div style="text-align: center /* align='center' */"> 가운데 정렬 </div><br><br>
+      <center> 가운데 정렬 </center><br><br> <!-- HTML5에서 없어진 태그 -->
+      <div style="text-align: right /* align='right' */"> 오른쪽 정렬 </div><br><br>
+    </div>
+    <hr>
+    <h2>blockquote.html</h2>
+    <div>
+      Wikipedia(www.wikipedia.org)는 웹을 다음과 같이 정의한다.
+      <blockquote>
+        The World Wide Web (WWW), also called the Web, is an information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and accessible via the Internet.
+      </blockquote>
+      웹 프로그래밍은 웹에서 사용되는 프로그램을 작성하는 것이다.
+    </div>
+    <hr>
+    <h2>pre.html</h2>
+    <div>
+      <pre>
+
+        문서의 공백을            그대로 출력합니다. <br><br>
+
+        다른 태그들은 본래대로 적용됩니다.
+
+      </pre>
+    </div>
+    <hr>
+    <h2>xmp.html</h2>
+    <div>
+      <xmp>
+
+        화면에 보이는
+
+        그대로 출력합니다.
+
+        <div style="color:red"> 태그도 그대로 출력합니다. </div>
+      </xmp>
+    </div>
+    <hr>
+    <h2>marquee.html</h2>
+    <div>
+      <p>
+        <marquee width="500" height="10" direction="right" behavior="scroll" scrollamount="5" scrolldelay="50" loop="3" bgcolor="yellow"> 오른쪽 방향으로 3번 반복 후 사라집니다. </marquee>
+      </p>
+      <p>
+        <marquee width="500" height="100" direction="down" behavior="alternate" scrollamount="5" scrolldelay="50" loop="10" bgcolor="pink"> 아래 방향으로 10번 왕복하다가 멈춥니다. </marquee>
+      </p>
+      <p>
+        <marquee width="500" height="10" direction="left" behavior="slide" scrollamount="5" scrolldelay="50" loop="3" bgcolor="yellow"> 왼쪽 방향으로 3번 반복 후 멈춥니다. </marquee>
+      </p>
+    </div>
+  </body>
+</html>
