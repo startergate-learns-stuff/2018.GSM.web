@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+      div {
+        position: absolute;
+        top: 50px;
+        width: 150px;
+        height: 100px;
+        border: 5px solid red;
+        margin: 50px;
+      }
+      .b1 {
+        left: 50px;
+        overflow: scroll;
+        outline: blue dotted 5px;
+        outline-offset: 5px;
+      }
+      .b2 {
+        left: 300px;
+        overflow:hidden;
+        outline: orange dotted 5px;
+        outline-offset: 20px;
+      }
+      p {
+        font-size: 20px;
+        font-weight: bold;
+      }
+    </style>
+    <title>dddd</title>
+  </head>
+  <body>
+    <div class="b1">
+      <p>외각선을 표시</p>
+      <p>오버플로우 되면 스크롤 바 생성</p>
+      <p>테두리와 외각선 간격: 5px</p>
+    </div>
+    <div class="b2">
+      <p>외각선을 표시</p>
+      <p>오버플로우 되어도 스크롤 바 생성하지 않음</p>
+      <p>테두리와 외각선 간격: 20px</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+      div {
+        position: absolute;
+        top: 50px;
+        width:200px;
+        height: 200px;
+        background-color: yellow;
+        border: 2px solid red;
+        font-weight: bold;
+        text-align: center;
+        display: -moz-box;
+        display: -webkit-box;
+        display: box;
+      }
+      #b1 {
+        left: 50px;
+        -moz-box-align: start;
+        -moz-box-orient:horizontal;
+        -moz-box-pack: end;
+        -webkit-box-align: start;
+        -webkit-box-orient:horizontal;
+        -webkit-box-pack: end;
+        box-align: start;
+        box-orient:horizontal;
+        box-pack: end;
+      }
+      #b2 {
+        left: 350px;
+        -moz-box-align: center;
+        -moz-box-orient: vertical;
+        -moz-box-pack: center;
+        -moz-box-direction:reverse;
+        -webkit-box-align: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-pack: center;
+        -webkit-box-direction:reverse;
+        box-align: center;
+        box-orient: vertical;
+        box-pack: center;
+        box-direction:reverse;
+      }
+      #b3 {
+        left:650px;
+        -moz-box-align: end;
+        -webkit-box-align: end;
+        box-align: end;
+      }
+    </style>
+    <title>dddd</title>
+  </head>
+  <body>
+    <div id="b1"><p> 가나다 </p><p> abc </p><p> 123 </p></div>
+    <div id="b2"><p> 가나다 </p><p> abc </p><p> 123 </p></div>
+    <div id="b3"><p> 가나다 </p><p> abc </p><p> 123 </p></div>
+  </body>
+</html>
