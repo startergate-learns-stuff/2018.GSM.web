@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Animation Property</title>
+  </head>
+  <style media="screen">
+    .rainbow {
+      position: absolute;
+      top: 30px;
+      width: 50px;
+      background-color: red;
+      text-align: center;
+      animation: myani 5s linear infinite altername;
+      animation-play-state:running;
+      -webkit-animation: myani 5s linear infinite altername;
+      -webkit-animation-play-state:running;
+      -moz-animation: myani 5s linear infinite altername;
+      -moz-animation-play-state:running;
+      -o-animation: myani 5s linear infinite altername;
+      -o-animation-play-state:running;
+    }
+    @keyframes myani {
+      0% {
+        left: 0px;
+        background: red;
+        height: 10px;
+      }
+      15% {
+        left: 50px;
+        background: orange;
+        height: 30px;
+      }
+      30% {
+        left: 100px;
+        background: yellow;
+        height: 50px;
+      }
+      45% {
+        left: 150px;
+        background: green;
+        color: white;
+        height: 70px;
+      }
+      60% {
+        left: 200px;
+        background: blue;
+        color: white;
+        height: 100px;
+      }
+      75% {
+        left: 250px;
+        background: navy;
+        color: white;
+        height: 130px;
+      }
+      100% {
+        left: 300px;
+        background: purple;
+        color: white;
+        height: 150px;
+      }
+    }
+    @-webkit-keyframes myani {
+      0% {
+        left: 0px;
+        background: red;
+        height: 10px;
+      }
+      15% {
+        left: 50px;
+        background: orange;
+        height: 30px;
+      }
+      30% {
+        left: 100px;
+        background: yellow;
+        height: 50px;
+      }
+      45% {
+        left: 150px;
+        background: green;
+        color: white;
+        height: 70px;
+      }
+      60% {
+        left: 200px;
+        background: blue;
+        color: white;
+        height: 100px;
+      }
+      75% {
+        left: 250px;
+        background: navy;
+        color: white;
+        height: 130px;
+      }
+      100% {
+        left: 300px;
+        background: purple;
+        color: white;
+        height: 150px;
+      }
+    }
+    @-moz-keyframes myani {
+      0% {
+        left: 0px;
+        background: red;
+        height: 10px;
+      }
+      15% {
+        left: 50px;
+        background: orange;
+        height: 30px;
+      }
+      30% {
+        left: 100px;
+        background: yellow;
+        height: 50px;
+      }
+      45% {
+        left: 150px;
+        background: green;
+        color: white;
+        height: 70px;
+      }
+      60% {
+        left: 200px;
+        background: blue;
+        color: white;
+        height: 100px;
+      }
+      75% {
+        left: 250px;
+        background: navy;
+        color: white;
+        height: 130px;
+      }
+      100% {
+        left: 300px;
+        background: purple;
+        color: white;
+        height: 150px;
+      }
+    }
+    @-o-keyframes myani {
+      0% {
+        left: 0px;
+        background: red;
+        height: 10px;
+      }
+      15% {
+        left: 50px;
+        background: orange;
+        height: 30px;
+      }
+      30% {
+        left: 100px;
+        background: yellow;
+        height: 50px;
+      }
+      45% {
+        left: 150px;
+        background: green;
+        color: white;
+        height: 70px;
+      }
+      60% {
+        left: 200px;
+        background: blue;
+        color: white;
+        height: 100px;
+      }
+      75% {
+        left: 250px;
+        background: navy;
+        color: white;
+        height: 130px;
+      }
+      100% {
+        left: 300px;
+        background: purple;
+        color: white;
+        height: 150px;
+      }
+    }
+  </style>
+  <body>
+    <h1 class='rainbow'>무지개 색</h1>
+  </body>
+</html>
