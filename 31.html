@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>dddd</title>
+    <script>
+      var calc = function(x) {
+        if (x < 1 || x > 9) {
+          alert("잘못 입력하셨습니다");
+          return;
+        }
+        for(var n = 1; n < 10; n += 1) {
+          document.writeln(x +"x"+n+"="+x*n+"<br>");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      calc(parseInt(prompt("숫자입력")));
+    </script>
+  </body>
+</html>

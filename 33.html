@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var student = {name: "최호승", age: 16, major: "software", out: out};
+      var out = function (_object) {
+        for(var str in student) {
+          if (str == 'out') {
+            break;
+          }
+          document.write(str+": "+student[str]+"<br>");
+        }
+      }
+      out();
+    </script>
+  </body>
+</html>
