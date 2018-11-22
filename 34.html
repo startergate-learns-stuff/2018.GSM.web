@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      // 1번
+      /*var sum = function(n) {
+        var output = 0;
+        for(var i = 1; i <= n; i++) {
+          output += i;
+        }
+        return output;
+      }
+      var n = prompt("숫자");
+      document.write(sum(n));*/
+
+      // 2번
+      /*var color = ["red", "orange", "yellow", "green", "blue"];
+      for(n in color) {
+        var i = n;
+        document.write(++i + "번째 색깔은 " + color[n]+"<br>");
+      }*/
+
+      // 3번
+      var book = {
+        name: "javascript",
+        price: 12000,
+        publisher:"gsm",
+        sale: function() {
+          return book.price * 0.8;
+        }
+      };
+      document.write("도서 이름: "+book.name+"<br>");
+      document.write("도서 출판사: "+book.publisher+"<br>");
+      document.write("도서 20% 할인가: "+book.sale()+"<br>");
+    </script>
+  </body>
+</html>
