@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ddd</title>
+    <script type="text/javascript">
+      function calculate(r) {
+        oval.result1.value = r * r * Math.PI;
+        oval.result2.value = 2 * r * Math.PI;
+      }
+    </script>
+  </head>
+  <body>
+    <form name="oval">
+      반지름 <input type="text" name="radius" value="" size="10">
+      <input type="button" value="확인" onclick="calculate(radius.value)"><br><br>
+      원의 넓이 <input type="text" name="result1" size="10"><br><br>
+      원의 둘레 <input type="text" name="result2" size="10">
+    </form>
+  </body>
+</html>
