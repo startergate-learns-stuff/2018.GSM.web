@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      document.write("굵은체".bold());
+      document.write("이탤릭체".italics());
+      document.write("fixed".fixed() + "<br><br>");
+
+      document.write("현재에" + "위첨자".fontcolor("red").sup() + "<br><br>");
+      document.write("현재에" + "아래첨자".sub() + "<br><br>");
+
+      document.write("font size 7".fontsize(7));
+      document.write("취소선".strike() + "<br><br>");
+
+      document.write("파랗고 크게".big().fontcolor("blue") + "<br><br>");
+      document.write("이탤릭체&취소선&빨간색".italics(),strike(),fontcolor("red") + "<br><br>");
+      document.write("크기는 5이면서 굵은체".fontsize(5).bold() + "<br>");
+    </script>
+  </body>
+</html>
